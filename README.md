@@ -233,10 +233,10 @@ Informasi yang ditampilkan meliputi:
 
 Catatan disajikan dalam empat bagian utama:
 
-- **S — Subjective:** Keluhan dan informasi subjektif pasien.
-- **O — Objective:** Hasil pemeriksaan dan pengukuran klinis.
-- **A — Assessment:** Interpretasi atau penilaian fisioterapi.
-- **P — Plan:** Rencana terapi dan tindak lanjut.
+- **S Subjective:** Keluhan dan informasi subjektif pasien.
+- **O Objective:** Hasil pemeriksaan dan pengukuran klinis.
+- **A Assessment:** Interpretasi atau penilaian fisioterapi.
+- **P Plan:** Rencana terapi dan tindak lanjut.
 
 Tampilan dilengkapi indikator skala nyeri serta rincian pengukuran ROM, MMT, modalitas, terapi latihan, dan HEP.
 
