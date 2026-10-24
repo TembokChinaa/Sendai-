@@ -1,21 +1,22 @@
 # FisioNotes
 ## Aplikasi Dokumentasi Fisioterapi Offline-First untuk Android
 
-FisioNotes adalah aplikasi Android berbasis Jetpack Compose yang dirancang untuk membantu fisioterapis mencatat, mengelola, dan mendokumentasikan sesi terapi pasien secara cepat, sistematis, dan terstruktur.
+**FisioNotes** adalah aplikasi Android berbasis Jetpack Compose yang dirancang untuk membantu fisioterapis mencatat, mengelola, dan mendokumentasikan sesi terapi pasien secara cepat, sistematis, dan terstruktur.
 
 Aplikasi ini mengutamakan pengalaman pengisian catatan berbasis pilihan (*option-first*), pengelolaan pengukuran klinis secara *multi-entry*, serta penyimpanan lokal agar dapat digunakan tanpa koneksi internet.
 
+---
 
-1. Informasi Versi
+## 1. Informasi Versi
 
-Nama Aplikasi: FisioNotes  
-Versi: `1.0.023`  
-Platform: Android  
-Bahasa Pemrograman:* Kotlin  
-UI Toolkit: Jetpack Compose dan Material 3  
-Metode Penyimpanan: SharedPreferences dengan format JSON  
-Minimum Android: Android 7.0 (API 24)  
-Target SDK: Android 14 (API 34)
+**Nama Aplikasi:** FisioNotes  
+**Versi:** `1.0.023`  
+**Platform:** Android  
+**Bahasa Pemrograman:** Kotlin  
+**UI Toolkit:** Jetpack Compose dan Material 3  
+**Metode Penyimpanan:** SharedPreferences dengan format JSON  
+**Minimum Android:** Android 7.0 (API 24)  
+**Target SDK:** Android 14 (API 34)
 
 ### Fokus Pengembangan Versi 1.0.023
 
@@ -37,24 +38,24 @@ Beranda dirancang sebagai pusat navigasi dan ringkasan aktivitas dokumentasi fis
 
 **Fitur yang tersedia:**
 
-- Sapaan dinamis:Menyesuaikan dengan waktu pada perangkat, yaitu pagi, siang, sore, atau malam.
-- Hero Card: Menampilkan jumlah kunjungan hari ini dan total catatan.
-- Quick Action Cards: Pintasan menuju fitur Catatan Baru dan Semua Pasien.
-- Statistik interaktif: Empat kartu statistik yang dapat ditekan untuk membuka daftar data terkait:
+- **Sapaan dinamis:** Menyesuaikan dengan waktu pada perangkat, yaitu pagi, siang, sore, atau malam.
+- **Hero Card:** Menampilkan jumlah kunjungan hari ini dan total catatan.
+- **Quick Action Cards:** Pintasan menuju fitur Catatan Baru dan Semua Pasien.
+- **Statistik interaktif:** Empat kartu statistik yang dapat ditekan untuk membuka daftar data terkait:
   - Total catatan.
   - Kunjungan hari ini.
   - Jumlah pasien unik.
   - Rata-rata skala nyeri.
-- Jadwal kontrol mendatang:** Menampilkan hingga tiga jadwal kontrol terdekat berdasarkan data catatan.
-- Catatan terbaru: Menampilkan empat catatan terakhir dengan tombol untuk melihat seluruh catatan.
-- Empty state: Menampilkan tombol Buat Catatan Pertama ketika belum terdapat catatan.
+- **Jadwal kontrol mendatang:** Menampilkan hingga tiga jadwal kontrol terdekat berdasarkan data catatan.
+- **Catatan terbaru:** Menampilkan empat catatan terakhir dengan tombol untuk melihat seluruh catatan.
+- **Empty state:** Menampilkan tombol Buat Catatan Pertama ketika belum terdapat catatan.
 - **Ruang aman navigasi:** Menggunakan `padding bottom 120.dp` untuk mengurangi risiko konten tertutup oleh FAB atau bilah navigasi.
 
 ### 2.2. Catatan Baru  Wizard Lima Langkah
 
 Formulir catatan baru menggunakan pendekatan *option-first*. Pengguna dapat memilih opsi yang tersedia sebelum memasukkan informasi secara manual.
 
-#### Langkah 1  Data Pasien
+#### Langkah 1 Data Pasien
 
 Fitur pada tahap ini meliputi:
 
@@ -63,7 +64,7 @@ Fitur pada tahap ini meliputi:
 - Memasukkan identitas pasien secara manual.
 - Mengatur nomor sesi menggunakan kontrol stepper untuk menaikkan atau menurunkan nomor sesi.
 
-#### Langkah 2 — Keluhan Pasien
+#### Langkah 2 Keluhan Pasien
 
 Tahap ini digunakan untuk mendokumentasikan keluhan utama pasien.
 
@@ -86,7 +87,7 @@ Pengguna dapat menambahkan keluhan melalui input manual.
 
 **Skala nyeri:** Slider dengan rentang 0–10, dilengkapi emoji, label dinamis, dan indikator warna berdasarkan nilai yang dipilih.
 
-#### Langkah 3 — Pemeriksaan Fisioterapi
+#### Langkah 3 Pemeriksaan Fisioterapi
 
 Tahap pemeriksaan menyediakan kolom anamnesis, pengukuran klinis, dan dokumentasi kemampuan fungsional.
 
@@ -108,7 +109,7 @@ Tahap pemeriksaan menyediakan kolom anamnesis, pengukuran klinis, dan dokumentas
 
 **Catatan tambahan:** Kolom untuk mendokumentasikan temuan pemeriksaan lainnya.
 
-#### Langkah 4 — Intervensi Fisioterapi
+#### Langkah 4 Intervensi Fisioterapi
 
 Tahap ini digunakan untuk mencatat modalitas, terapi latihan, dan respons pasien terhadap intervensi.
 
@@ -139,7 +140,7 @@ Setiap jenis latihan dilengkapi kolom dosis yang dapat diedit sesuai rencana ter
 
 **Catatan intervensi tambahan:** Digunakan untuk menyimpan informasi lain yang berkaitan dengan pelaksanaan terapi.
 
-#### Langkah 5 — Rencana Terapi (*Plan*)
+#### Langkah 5 Rencana Terapi (*Plan*)
 
 Tahap terakhir digunakan untuk menyusun tujuan, rencana intervensi, dan program latihan mandiri pasien.
 
