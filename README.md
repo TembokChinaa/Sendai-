@@ -371,8 +371,8 @@ Berkas backup dapat berisi informasi sensitif sehingga pengguna perlu memastikan
 | Pengolahan JSON | `org.json` |
 | Navigasi | State-based tab navigation |
 | Dialog | Compose Dialog dengan tampilan hampir layar penuh |
-| Minimum SDK | API 24 — Android 7.0 |
-| Target SDK | API 34 — Android 14 |
+| Minimum SDK | API 24  Android 7.0 |
+| Target SDK | API 34  Android 14 |
 
 ### Struktur Utama
 
